@@ -99,4 +99,78 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+
+    <string name="article_trump">
+        "Donald John Trump (born June 14, 1946) is the 45th and current President of the United"
+        "States, in office since January 20, 2017. Before entering politics, he was a businessman"
+        "and television personality. \n\n"
+
+        "Trump was born in the New York City borough of Queens. He earned an economics degree from"
+        "the Wharton School of the University of Pennsylvania. A third-generation businessman, Trump"
+        "followed in the footsteps of his grandmother Elizabeth and father Fred in running the family"
+        "real estate company. He served as chairman and president of The Trump Organization from 1971"
+        "until January 2017. Upon his inauguration as president, Trump delegated company management"
+        "to his sons Donald Jr. and Eric. Trump's business career primarily focused on building or"
+        "renovating office towers, hotels, casinos, and golf courses. \n\n"
+
+        "Trump also started several side ventures and branded various products with his name. He is"
+        "credited as having written or co-written several books (including The Art of the Deal), and"
+        "produced and hosted The Apprentice television series for 12 years. As of 2017, he was the"
+        "544th richest person in the world, with an estimated net worth of $3.5 billion. \n\n"
+    </string>
+
+    <string name="article_messi">
+        "Lionel Andrés "Leo" Messi[note 1] (Spanish pronunciation: [ljoˈnel anˈðɾeθ ˈmesi] (About "
+        "this sound listen); born 24 June 1987) is an Argentine professional footballer who plays "
+        "as a forward for Spanish club Barcelona and the Argentina national team. Often considered "
+        "the best player in the world and regarded by many as the greatest of all time, Messi is the"
+        "only player in history to win five FIFA Ballon d'Or awards,[note 2] four of which he won "
+        "consecutively, and a record-tying four European Golden Shoes.[note 3] He has won 29 trophies"
+        "with Barcelona, including eight La Liga titles, four UEFA Champions League titles, and five "
+        "Copas del Rey. Both a prolific goalscorer and a creative playmaker, Messi holds the records "
+        "for most official goals scored in La Liga (360), a La Liga season (50) and a club football "
+        "season in Europe (73), a calendar year (91), as well as those for most assists made in La "
+        "Liga (139) and the Copa América (11). He has scored over 600 senior career goals for club "
+        "and country. \n\n"
+
+        "Born and raised in central Argentina, Messi was diagnosed with a growth hormone deficiency "
+        "as a child. At age 13, he relocated to Spain to join Barcelona, who agreed to pay for his "
+        "medical treatment. After a fast progression through Barcelona's youth academy, Messi made "
+        "his competitive debut aged 17 in October 2004. Despite being injury-prone during his early "
+        "career, he established himself as an integral player for the club within the next three years,"
+        "finishing 2007 as a finalist for both the Ballon d'Or and FIFA World Player of the Year award,"
+        "a feat he repeated the following year. His first uninterrupted campaign came in the 2008–09"
+        "season, during which he helped Barcelona achieve the first treble in Spanish football. At 22"
+        "years old, Messi won the Ballon d'Or and FIFA World Player of the Year award by record voting margins.\n\n"
+    </string>
+
+    <string name="article_amazon">
+        "Amazon Echo (shortened and referred to as Echo) is a brand of smart speakers developed by "
+        "Amazon.com. The devices connect to the voice-controlled intelligent personal assistant "
+        "service Alexa, which responds to the name "Alexa". This "wake word" can be changed by the "
+        "user to "Amazon", "Echo" or "Computer".[1][2] The device is capable of voice interaction, "
+        "music playback, making to-do lists, setting alarms, streaming podcasts, playing audiobooks, "
+        "and providing weather, traffic and other real time information. It can also control several "
+        "smart devices using itself as a home automation hub. \n\n"
+
+
+        "Amazon had been developing Echo devices inside its Lab126 offices in Silicon Valley and "
+        "Cambridge, Massachusetts since at least 2010 in confirmed reports. The device was part of"
+       " Amazon’s first attempts to expand its device portfolio beyond the Kindle e-reader.[3] The "
+        "Echo was prominently featured in Amazon's first-ever Super Bowl ad in 2016.[4] \n\n"
+    </string>
+
+    <string name="article_samsung">
+
+        "Introducing the stunning Infinity Display The revolutionary design of the Galaxy S8 and S8+ "
+        "begins from the inside out. We rethought every part of the phone's layout to break through"
+        "the confines of the smartphone screen. So all you see is pure content and virtually no bezel. "
+        "It's the biggest, most immersive screen on a Galaxy smartphone of this size. And it's easy to hold in one hand. \n\n"
+
+        "Prying eyes are not a problem when you have iris scanning on the Galaxy S8 and S8+. Your "
+        "irises have patterns that are unique to you, and they're nearly impossible to replicate. "
+        "That means with iris scanning, your phone and its contents open to your eyes only. And when "
+        "you need to unlock really fast, face recognition is a handy option. \n\n"
+
+    </string>
 </resources>

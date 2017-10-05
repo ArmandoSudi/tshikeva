@@ -11,6 +11,7 @@
         android:orientation="vertical">
 
         <ImageView
+            android:id="@+id/article_thumbnail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleType="fitCenter"
@@ -24,7 +25,7 @@
             android:padding="8dp">
 
             <TextView
-                android:id="@+id/title_tv"
+                android:id="@+id/article_title_tv"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -36,22 +37,15 @@
                 android:background="#EDEDED"/>
 
             <TextView
+                android:id="@+id/article_body_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/paragraph_one"
                 android:paddingBottom="8dp"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/paragraph_two"/>
-
 
         </LinearLayout>
 
-
-
     </LinearLayout>
-
 
 </ScrollView>

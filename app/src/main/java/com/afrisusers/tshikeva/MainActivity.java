@@ -70,16 +70,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void populateWithDemoData(List<Article> articles){
 
-        articles.add(new Article(R.drawable.echo, "Twitter takes its turn in the Russian probe spotlight",
-                new Date(2017, 9, 1), true, this.getResources().getString(R.string.paragraph_one)));
-        articles.add(new Article(R.drawable.bentley, "North Korea again denies Otto Warmbier tortured",
+        articles.add(new Article(R.drawable.echo, "Amazon Echo, your house AI powered Assisatant",
+                new Date(2017, 9, 1), true, this.getResources().getString(R.string.article_amazon)));
+        articles.add(new Article(R.drawable.bentley, "The new Bentley Continental GT",
                 new Date(2017, 9, 2), true, this.getResources().getString(R.string.paragraph_two)));
-        articles.add(new Article(R.drawable.messi, "Man arrested in Colorado may be suspect in unsolved murder of Indiana teens, police say",
-                new Date(2017, 9, 3), true, this.getResources().getString(R.string.paragraph_three)));
-        articles.add(new Article(R.drawable.trump, "Are there now too many Amazon Echo devices?",
-                new Date(2017, 9, 4), true, this.getResources().getString(R.string.paragraph_four)));
-        articles.add(new Article(R.drawable.s8, "Arsenal and Real Madrid join Liverpool and Tottenham in chase for Pulisic",
-                new Date(2017, 9, 5), true, this.getResources().getString(R.string.paragraph_five)));
+        articles.add(new Article(R.drawable.messi, "The not so little man of barcelona",
+                new Date(2017, 9, 3), true, this.getResources().getString(R.string.article_messi)));
+        articles.add(new Article(R.drawable.trump, "Who is Donald Trmp ?",
+                new Date(2017, 9, 4), true, this.getResources().getString(R.string.article_trump)));
+        articles.add(new Article(R.drawable.s8, "Samsung galaxy s8, the most photogenic phone",
+                new Date(2017, 9, 5), true, this.getResources().getString(R.string.article_samsung)));
 
     }
 
