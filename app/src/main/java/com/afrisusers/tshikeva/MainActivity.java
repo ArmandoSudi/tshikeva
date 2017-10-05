@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     String LOG_TAG = MainActivity.class.getSimpleName();
 
     RecyclerView mArticlesRV;
+    LinearLayoutManager mLinearLayout;
     ArticleAdapter mArticleAdapter;
     List<Article> mArticles = new ArrayList<Article>();
 
@@ -37,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         mArticleAdapter = new ArticleAdapter(mArticles, this);
         mArticlesRV.setAdapter(mArticleAdapter);
         mArticlesRV.setHasFixedSize(true);
-        mArticlesRV.setLayoutManager(new LinearLayoutManager(this));
+        mArticlesRV.setLayoutManager(mLinearLayout);
 
         populateWithDemoData(mArticles);
         mArticleAdapter.notifyDataSetChanged();
@@ -62,6 +64,8 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         mArticlesRV = (RecyclerView) findViewById(R.id.articles_rv);
+
+        mLinearLayout = new LinearLayoutManager(this);
     }
 
     public void populateWithDemoData(List<Article> articles){

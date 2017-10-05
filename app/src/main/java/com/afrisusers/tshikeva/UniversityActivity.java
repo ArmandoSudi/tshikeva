@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -23,6 +24,8 @@ public class UniversityActivity extends AppCompatActivity {
 
     RecyclerView mUniversityRV;
     UniversityAdapter mUniversityAdapter;
+    DividerItemDecoration mDividerItemDecoration;
+    LinearLayoutManager mLinearLayout;
     List<University> mUniversities = new ArrayList<University>();
 
     @Override
@@ -37,7 +40,8 @@ public class UniversityActivity extends AppCompatActivity {
         mUniversityAdapter = new UniversityAdapter(this, mUniversities);
         mUniversityRV.setAdapter(mUniversityAdapter);
         mUniversityRV.setHasFixedSize(true);
-        mUniversityRV.setLayoutManager(new LinearLayoutManager(this));
+        mUniversityRV.setLayoutManager(mLinearLayout);
+        mUniversityRV.addItemDecoration(mDividerItemDecoration);
 
         mUniversityAdapter.notifyDataSetChanged();
     }
@@ -47,6 +51,10 @@ public class UniversityActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         mUniversityRV = (RecyclerView) findViewById(R.id.university_rv);
+
+        mLinearLayout = new LinearLayoutManager(this);
+        mDividerItemDecoration = new DividerItemDecoration(this,
+                mLinearLayout.getOrientation());
     }
 
     public void loadDemoData() {

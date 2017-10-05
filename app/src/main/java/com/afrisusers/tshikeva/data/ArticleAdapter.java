@@ -47,7 +47,7 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.MyViewHo
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
-        Article article = mArticles.get(position);
+        final Article article = mArticles.get(position);
 
         holder.thumbnailIv.setImageResource(article.getThumbnail());
         holder.titleTV.setText(article.getmTitle());
@@ -56,7 +56,9 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.MyViewHo
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mContext.startActivity(new Intent(mContext, ArticleDetailActivity.class));
+                Intent intent = new Intent(mContext, ArticleDetailActivity.class);
+                intent.putExtra("article",article);
+                mContext.startActivity(intent);
                 Toast.makeText(mContext, "clicked", Toast.LENGTH_SHORT).show();
             }
         });
