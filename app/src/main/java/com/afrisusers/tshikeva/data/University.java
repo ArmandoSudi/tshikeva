@@ -6,6 +6,7 @@ package com.afrisusers.tshikeva.data;
 
 public class University {
 
+    int thumbnail;
     String mName;
     String mState;
     String mFoundingYear;
@@ -13,7 +14,8 @@ public class University {
     String mMoto;
     String mDescription;
 
-    public University(String mName, String mState, String mFoundingYear, int mRating) {
+    public University(int thumbnail, String mName, String mState, String mFoundingYear, int mRating) {
+        this.thumbnail = thumbnail;
         this.mName = mName;
         this.mState = mState;
         this.mFoundingYear = mFoundingYear;
@@ -27,6 +29,14 @@ public class University {
         this.mRating = mRating;
         this.mMoto = mMoto;
         this.mDescription = mDescription;
+    }
+
+    public int getThumbnail() {
+        return thumbnail;
+    }
+
+    public void setThumbnail(int thumbnail) {
+        this.thumbnail = thumbnail;
     }
 
     public String getmName() {

@@ -32,6 +32,12 @@
                 android:textColor="@color/colorPrimaryDark" />
 
             <TextView
+                android:id="@+id/university_state_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kinshasa"/>
+
+            <TextView
                 android:id="@+id/university_year_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

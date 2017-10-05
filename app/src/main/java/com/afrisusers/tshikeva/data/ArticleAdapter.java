@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.afrisusers.tshikeva.ArticleDetailActivity;
 import com.afrisusers.tshikeva.R;
 import com.afrisusers.tshikeva.UniversityActivity;
 
@@ -55,7 +56,7 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.MyViewHo
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mContext.startActivity(new Intent(mContext, UniversityActivity.class));
+                mContext.startActivity(new Intent(mContext, ArticleDetailActivity.class));
                 Toast.makeText(mContext, "clicked", Toast.LENGTH_SHORT).show();
             }
         });

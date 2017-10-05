@@ -27,13 +27,14 @@ public class UniversityAdapter extends RecyclerView.Adapter<UniversityAdapter.My
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
         ImageView thumbnail;
-        TextView universityNameTV, universityYearTV;
+        TextView universityNameTV, universityYearTV, universityStateTV;
 
         public MyViewHolder(View itemView) {
             super(itemView);
             this.thumbnail = (ImageView) itemView.findViewById(R.id.university_thumbnail_iv);
             this.universityNameTV = (TextView) itemView.findViewById(R.id.university_name_tv);
             this.universityYearTV = (TextView) itemView.findViewById(R.id.university_year_tv);
+            this.universityStateTV = (TextView) itemView.findViewById(R.id.university_state_tv);
         }
     }
 
@@ -47,9 +48,10 @@ public class UniversityAdapter extends RecyclerView.Adapter<UniversityAdapter.My
 
         University university = mUniversities.get(position);
         
-        holder.thumbnail.setImageResource(R.drawable.messi);
+        holder.thumbnail.setImageResource(university.getThumbnail());
         holder.universityNameTV.setText(university.getmName());
         holder.universityYearTV.setText(university.getmFoundingYear().toString());
+        holder.universityStateTV.setText(university.getmState());
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override

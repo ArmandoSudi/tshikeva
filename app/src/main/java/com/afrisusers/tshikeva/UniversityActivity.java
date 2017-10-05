@@ -51,12 +51,12 @@ public class UniversityActivity extends AppCompatActivity {
 
     public void loadDemoData() {
 
-        mUniversities.add(new University("UNIKIN", "Kinshasa", "1910", 3434));
-        mUniversities.add(new University("UNILU", "Lubumbashi", "1945", 3434));
-        mUniversities.add(new University("UNIKIS", "Kisangani", "1944", 3434));
-        mUniversities.add(new University("UCB", "Bukavu", "1975", 3434));
-        mUniversities.add(new University("ULPGL", "Goma", "1977", 3434));
-        mUniversities.add(new University("UPC", "Kinshasa", "1966", 3434));
+        mUniversities.add(new University(R.drawable.unikin, "UNIKIN", "Kinshasa", "1910", 3434));
+        mUniversities.add(new University(R.drawable.unilu, "UNILU", "Lubumbashi", "1945", 3434));
+        mUniversities.add(new University(R.drawable.unikis, "UNIKIS", "Kisangani", "1944", 3434));
+        mUniversities.add(new University(R.drawable.unikin, "UCB", "Bukavu", "1975", 3434));
+        mUniversities.add(new University(R.drawable.unilu, "ULPGL", "Goma", "1977", 3434));
+        mUniversities.add(new University(R.drawable.unikis, "UPC", "Kinshasa", "1966", 3434));
 
 
     }
