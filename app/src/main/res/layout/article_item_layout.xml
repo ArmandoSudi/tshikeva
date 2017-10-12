@@ -29,7 +29,7 @@
                 android:maxLines="2"
                 android:text="title"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                android:textColor="@color/colorPrimaryDark" />
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/published_date_tv"
