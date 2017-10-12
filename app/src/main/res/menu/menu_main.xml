@@ -3,8 +3,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.afrisusers.tshikeva.MainActivity">
     <item
+        android:id="@+id/action_evenement"
+        android:orderInCategory="100"
+        android:title="@string/Evenement"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_promotion"
+        android:orderInCategory="100"
+        android:title="@string/Promotion"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_insolite"
+        android:orderInCategory="100"
+        android:title="@string/Insolite"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/action_universites"
         android:orderInCategory="100"
         android:title="@string/universite"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_contact"
+        android:orderInCategory="100"
+        android:title="@string/Contact"
         app:showAsAction="never" />
 </menu>

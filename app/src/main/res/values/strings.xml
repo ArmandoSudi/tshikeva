@@ -174,4 +174,8 @@
 
     </string>
     <string name="universite">Universités</string>
+    <string name="Evenement">Evenement</string>
+    <string name="Promotion">Promotion</string>
+    <string name="Insolite">Insolite</string>
+    <string name="Contact">Contact</string>
 </resources>
