@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_universites) {
 
             Intent intentUniv = new Intent(MainActivity.this, UniversityActivity.class);
-//                startActivity(intentUniv);
+                startActivity(intentUniv);
             return true;
         }
 
