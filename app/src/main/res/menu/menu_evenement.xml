@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.afrisusers.tshikeva.UI.EvenementActivity">
+    <item
+        android:id="@+id/action_interview"
+        android:orderInCategory="100"
+        android:title="@string/action_interviw"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_actualite"
+        android:orderInCategory="100"
+        android:title="@string/action_actualite"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_decouverte"
+        android:orderInCategory="100"
+        android:title="@string/action_decouverte"
+        app:showAsAction="never" />
+
+</menu>

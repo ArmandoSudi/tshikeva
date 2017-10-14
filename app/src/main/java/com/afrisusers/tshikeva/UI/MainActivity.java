@@ -107,6 +107,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentUniv);
             return true;
         }
+        //noinspection SimplifiableIfStatement
+        else if (id == R.id.action_evenement) {
+
+            Intent intentUniv = new Intent(MainActivity.this, EvenementActivity.class);
+            startActivity(intentUniv);
+            return true;
+        }
+        else if (id == R.id.action_contact) {
+
+            Intent intentContact = new Intent(MainActivity.this, ContactActivity.class);
+            startActivity(intentContact);
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }

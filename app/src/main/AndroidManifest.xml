@@ -29,7 +29,8 @@
         <activity
             android:name=".UI.EvenementActivity"
             android:label="@string/title_activity_evenement"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UI.ContactActivity"></activity>
     </application>
 
 </manifest>
