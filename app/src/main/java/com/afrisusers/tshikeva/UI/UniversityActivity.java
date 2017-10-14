@@ -1,4 +1,4 @@
-package com.afrisusers.tshikeva;
+package com.afrisusers.tshikeva.UI;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -10,6 +10,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.afrisusers.tshikeva.R;
 import com.afrisusers.tshikeva.data.Article;
 import com.afrisusers.tshikeva.data.ArticleAdapter;
 import com.afrisusers.tshikeva.data.University;

@@ -1,15 +1,13 @@
-package com.afrisusers.tshikeva;
+package com.afrisusers.tshikeva.UI;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.afrisusers.tshikeva.R;
 import com.afrisusers.tshikeva.data.Article;
-
-import org.w3c.dom.Text;
 
 public class ArticleDetailActivity extends AppCompatActivity {
 

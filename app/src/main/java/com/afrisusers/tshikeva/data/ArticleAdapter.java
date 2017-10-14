@@ -10,9 +10,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.afrisusers.tshikeva.ArticleDetailActivity;
+import com.afrisusers.tshikeva.UI.ArticleDetailActivity;
 import com.afrisusers.tshikeva.R;
-import com.afrisusers.tshikeva.UniversityActivity;
 
 import java.text.DateFormat;
 import java.util.List;
