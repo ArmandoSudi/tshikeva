@@ -73,6 +73,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void populateWithDemoData(List<Article> articles){
 
+        articles.add(new Article(R.drawable.min_esu, "Min/ESU : Le ministre MBIKAYI lance officiellement la bourse de solidarité.",
+                new Date(2017, 10, 13), true, this.getResources().getString(R.string.min_esu)));
+        articles.add(new Article(R.drawable.kenzy, "Kenzy Mawanda explique son travail de fond en comble",
+                new Date(2017, 10, 9), true, this.getResources().getString(R.string.keny)));
+        articles.add(new Article(R.drawable.min_esu, "Min/ESU : Le ministre MBIKAYI lance officiellement la bourse de solidarité.",
+                new Date(2017, 10, 13), true, this.getResources().getString(R.string.min_esu)));
         articles.add(new Article(R.drawable.echo, "Amazon Echo, your house AI powered Assisatant",
                 new Date(2017, 9, 1), true, this.getResources().getString(R.string.article_amazon)));
         articles.add(new Article(R.drawable.bentley, "The new Bentley Continental GT",

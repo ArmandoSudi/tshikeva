@@ -188,4 +188,24 @@
     <string name="action_decouverte">Decouverte</string>
     <string name="action_actualite">Actualité</string>
     <string name="action_interviw">Interviw</string>
+    <string name="min_esu">"\n\n"
+        "Le programme de «la Bourse de Solidarité nationale et de l’Excellence de l’Enseignement supérieur et universitaire» lancé par Steve Mbikayi.\n\n"
+        "C’est le jeudi 12 octobre 2017 que le ministre de l’Enseignement supérieur et Universitaire Steve Mbikayi a lancé le programme de «la bourse de solidarité nationale et de l’excellence de l’enseignement supérieur et universitaire».
+        Dans un premier temps, cette bourse a pour cible les jeunes issus des familles modestes, les orphelins et les filles, tous désireux d’embrasser les filières sélectionnées en remplissant les conditions d’attribution.\n"
+        "Pour le ministre, l’objectif de la Bourse est de favoriser la revalorisation de certaines filières qui ont été désertées par les étudiants dans nos Établissements et qui tendent à disparaître. « Il s’agit également de contribuer à l’amélioration des conditions sociales de notre jeunesse. Raison pour laquelle la Bourse de Solidarité Nationale et de l’Excellence cible dans un premier temps les jeunes issus de familles modestes, les orphelins et les filles, mais aussi tous les jeunes désireux d’embrasser les filières sélectionnées et qui rempliront les conditions d’attribution. Comme je l’ai annoncé lors de la cérémonie de présentation de l’Instruction académique n° 019, le 07 octobre dernier, les bénéficiaires de cette Bourse seront exemptés du paiement des frais d’inscription et des frais académiques. Ils seront encadrés et suivis à la loupe jusqu’à la fin de leur deuxième cycle. Au cas où le budget alloué au Ministère de l’Enseignement Supérieur et Universitaire le permettrait, ils seront, à l’issu d’un concours, sélectionnés et envoyés pour continuer la recherche dans des pays les plus industrialisés en vue de favoriser l’importation du savoir et du savoir-faire scientifiques et technologiques, indispensables au développement de notre pays. […] », a expliqué le ministre."
+        "Dans son discours, le ministre de l’ESU compte sur l’état congolais pour pérenniser, dit-il, ce programme.\n
+        «Le développement et l’émergence d’un pays sont tributaires d’une bonne formation», a ajouté Steve Mbikayi."
+
+    </string>
+    <string name="keny">"Nous nous sommes amusés à demander aux nombreux followers de tchikeva sur Facebook et Twitter d’imaginer la problématique du travail de Kenzy Mawanda.
+        Plusieurs se sont trompés, l’auteur nous a fait le plaisir de résumé son travail pour tout ceux qui veulent le lire.\n\n"
+        "Bonne lecture \n\n Mon sujet est :\n"
+        "La pratique de la communication interpersonnelle entre une fille et un garçon lors d’une rencontre amoureuse dans la commune de Mont-Ngafula. Cas du quartier Mama-Yemo."
+        " L’être humain se caractérise par le changement du niveau de vie, tant au niveau physiologique, social qu’affectif. A chaque niveau de vie correspond certains points à éclairer et un discours à tenir. Durant ce processus, la communication joue un rôle central et peut ne pas permettre une compréhension approfondie de la communication. Ainsi, À tous les niveaux, les acteurs humains posent les actes de communication.
+        L’acte de communication est un comportement de quelque nature que ce soit pourvu qu’il soit destiné à être observé par un autre agent que son auteur.
+        Il suppose donc avoir deux pôles : un émetteur un récepteur.
+        Un acte de communication ne se produit jamais dans un espace vide, il relève toujours d’une situation de communication qui est le résultat d’une rencontre avec de participants entretenant des relations interpersonnelles."
+
+
+    </string>
 </resources>
