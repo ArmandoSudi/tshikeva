@@ -30,7 +30,9 @@
             android:name=".UI.EvenementActivity"
             android:label="@string/title_activity_evenement"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".UI.ContactActivity"></activity>
+        <activity android:name=".UI.ContactActivity" />
+        <activity android:name=".UI.PromotionActivity" />
+        <activity android:name=".UI.InsolitesActivity"></activity>
     </application>
 
 </manifest>

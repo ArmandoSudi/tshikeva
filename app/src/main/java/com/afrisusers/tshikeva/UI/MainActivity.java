@@ -77,8 +77,8 @@ public class MainActivity extends AppCompatActivity {
                 new Date(2017, 10, 13), true, this.getResources().getString(R.string.min_esu)));
         articles.add(new Article(R.drawable.kenzy, "Kenzy Mawanda explique son travail de fond en comble",
                 new Date(2017, 10, 9), true, this.getResources().getString(R.string.keny)));
-        articles.add(new Article(R.drawable.min_esu, "Min/ESU : Le ministre MBIKAYI lance officiellement la bourse de solidarité.",
-                new Date(2017, 10, 13), true, this.getResources().getString(R.string.min_esu)));
+        articles.add(new Article(R.drawable.inedit_kenzy, "Inédit : Kenzy Mawanda, auteur du Tfc qui a bougé la toile se dévoile.",
+                new Date(2017, 10, 9), true, this.getResources().getString(R.string.inedit_kenzy)));
         articles.add(new Article(R.drawable.echo, "Amazon Echo, your house AI powered Assisatant",
                 new Date(2017, 9, 1), true, this.getResources().getString(R.string.article_amazon)));
         articles.add(new Article(R.drawable.bentley, "The new Bentley Continental GT",
@@ -118,6 +118,18 @@ public class MainActivity extends AppCompatActivity {
 
             Intent intentUniv = new Intent(MainActivity.this, EvenementActivity.class);
             startActivity(intentUniv);
+            return true;
+        }
+        else if (id == R.id.action_insolite) {
+
+            Intent intentInsolite = new Intent(MainActivity.this, InsolitesActivity.class);
+            startActivity(intentInsolite);
+            return true;
+        }
+        else if (id == R.id.action_promotion) {
+
+            Intent intentPromo = new Intent(MainActivity.this, PromotionActivity.class);
+            startActivity(intentPromo);
             return true;
         }
         else if (id == R.id.action_contact) {
