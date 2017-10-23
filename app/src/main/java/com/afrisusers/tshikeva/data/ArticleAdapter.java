@@ -58,7 +58,7 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.MyViewHo
                 Intent intent = new Intent(mContext, ArticleDetailActivity.class);
                 intent.putExtra("article",article);
                 mContext.startActivity(intent);
-                Toast.makeText(mContext, "clicked", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(mContext, "clicked", Toast.LENGTH_SHORT).show();
             }
         });
     }

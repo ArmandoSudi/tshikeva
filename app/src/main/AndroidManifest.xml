@@ -32,7 +32,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".UI.ContactActivity" />
         <activity android:name=".UI.PromotionActivity" />
-        <activity android:name=".UI.InsolitesActivity"></activity>
+        <activity android:name=".UI.InsolitesActivity" />
     </application>
 
 </manifest>

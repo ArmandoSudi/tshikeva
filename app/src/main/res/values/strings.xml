@@ -187,7 +187,7 @@
     <string name="title_activity_evenement">Evenement</string>
     <string name="action_decouverte">Decouverte</string>
     <string name="action_actualite">Actualité</string>
-    <string name="action_interviw">Interviw</string>
+    <string name="action_interview">Interview</string>
     <string name="min_esu">"\n\n"
         "Le programme de «la Bourse de Solidarité nationale et de l’Excellence de l’Enseignement supérieur et universitaire» lancé par Steve Mbikayi.\n\n"
         "C’est le jeudi 12 octobre 2017 que le ministre de l’Enseignement supérieur et Universitaire Steve Mbikayi a lancé le programme de «la bourse de solidarité nationale et de l’excellence de l’enseignement supérieur et universitaire».
@@ -220,4 +220,8 @@
         "
 
     </string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
