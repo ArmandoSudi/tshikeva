@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "119552259822",
+    "firebase_url": "https://tshikeva-df6a2.firebaseio.com",
+    "project_id": "tshikeva-df6a2",
+    "storage_bucket": "tshikeva-df6a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119552259822:android:a7df95a421d6a416",
+        "android_client_info": {
+          "package_name": "com.afrisusers.tshikeva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119552259822-qjosv9kpq50ktoeb6u86ntgor6d41hvg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.afrisusers.tshikeva",
+            "certificate_hash": "4329f6dc2bea4087494902ec2fe89985c459d683"
+          }
+        },
+        {
+          "client_id": "119552259822-ljq7jf0ttd6rvi2c302fkbqllcrd2lf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2myLwiVUKMkI4SzxZiuIWJdzEgh8326U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119552259822-ljq7jf0ttd6rvi2c302fkbqllcrd2lf7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
