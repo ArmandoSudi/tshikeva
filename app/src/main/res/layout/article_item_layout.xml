@@ -14,12 +14,12 @@
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_weight="7"
             android:layout_width="0dp"
             android:layout_height="74dp"
-            android:paddingStart="8dp"
+            android:layout_weight="7"
+            android:orientation="vertical"
             android:paddingLeft="8dp"
-            android:orientation="vertical">
+            android:paddingStart="8dp">
 
             <TextView
                 android:id="@+id/title_tv"

@@ -28,11 +28,13 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".UI.EvenementActivity"
-            android:label="@string/title_activity_evenement"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".UI.ContactActivity" />
-        <activity android:name=".UI.PromotionActivity" />
-        <activity android:name=".UI.InsolitesActivity" />
+            android:label="@string/title_activity_evenement" />
+        <activity android:name=".UI.ContactActivity"
+            android:label="@string/Contact"/>
+        <activity android:name=".UI.PromotionActivity"
+            android:label="@string/Promotion"/>
+        <activity android:name=".UI.InsolitesActivity"
+            android:label="@string/Insolite"/>
     </application>
 
 </manifest>

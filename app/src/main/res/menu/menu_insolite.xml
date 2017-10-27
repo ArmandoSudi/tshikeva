@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_evenement_inso"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="@string/Evenement" />
+        <item
+            android:id="@+id/nav_promo_inso"
+            android:icon="@drawable/ic_promo__black_24dp"
+            android:title="@string/Promotion" />
+        <item
+            android:id="@+id/nav_insolite_inso"
+            android:icon="@drawable/ic_mood_black_24dp"
+            android:title="@string/Insolite" />
+        <item
+            android:id="@+id/nav_univ_inso"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/universite" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contact_inso"
+                android:icon="@drawable/ic_contact_phone_black_24dp"
+                android:title="@string/Contact" />
+            <item
+                android:id="@+id/nav_send_inso"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
