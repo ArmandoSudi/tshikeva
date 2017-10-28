@@ -20,6 +20,18 @@ public class PromotionActivity extends AppCompatActivity implements View.OnClick
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_promotion);
+        fab0 = (FloatingActionButton) findViewById(R.id.fabPromo_);
+            fab1 = (FloatingActionButton) findViewById(R.id.fab1Promo_insolite);
+            fab2 = (FloatingActionButton) findViewById(R.id.fab2Promo_Evnt);
+            fab3 = (FloatingActionButton) findViewById(R.id.fab3Promo_Univ);
+            fab_open = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_open);
+            fab_close = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_close);
+            rotate_forward = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.rotate_forward);
+            rotate_backward = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.rotate_backward);
+            fab0.setOnClickListener(this);
+            fab1.setOnClickListener(this);
+            fab2.setOnClickListener(this);
+            fab3.setOnClickListener(this);
 
         initScreen();
     }
