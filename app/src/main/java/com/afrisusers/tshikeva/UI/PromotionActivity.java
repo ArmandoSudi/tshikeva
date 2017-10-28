@@ -38,7 +38,7 @@ public class PromotionActivity extends AppCompatActivity implements View.OnClick
                 animateFAB();
                 break;
             case R.id.fab1Promo_insolite:
-// coe un gros thug --Insolite
+// un gros thug --Insolite
                 Log.d("Message 1", "niko ku Fab 1");
                 Intent intentEvent = new Intent(PromotionActivity.this, InsolitesActivity.class);
                 startActivity(intentEvent);
