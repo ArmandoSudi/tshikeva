@@ -9,4 +9,7 @@
     <color name="colorsecondary_text">#757575</color>
     <color name="coloricons">#212121</color>
     <color name="colordivider">#BDBDBD</color>
+    <color name="colorFAB1">#d5f1ec92</color>
+    <color name="colorFAB2">#d5f4ea12</color>
+    <color name="colorFAB3">#87b8f13c</color>
 </resources>
