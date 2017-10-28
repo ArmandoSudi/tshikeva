@@ -37,7 +37,7 @@ public class InsolitesActivity extends AppCompatActivity implements View.OnClick
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_insolites);
+        setContentView(R.layout.activity_insolite);
 
         initializeScreen();
     }
