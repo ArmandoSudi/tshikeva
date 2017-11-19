@@ -4,6 +4,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.support.v7.widget.SearchView;
 import android.util.Log;
 
 import com.afrisusers.tshikeva.data.helper.UniversityBaseSQLite;
@@ -41,6 +42,9 @@ public class UniversityDB {
         universityBaseSQLite=new UniversityBaseSQLite(context,Name_DB,null,Version);
         Log.i("Z","universityBaseSQLite");
 
+    }
+
+    public UniversityDB() {
     }
 
 
@@ -105,6 +109,7 @@ public class UniversityDB {
 //    }
     public ArrayList <University> getAllUniversity (String nameKey) {
         Cursor cursor = db.query(Table_Univ, new String[]{Col_Name, Col_UnivImage, Col_UnivLogo, Col_Description,Col_mFac,Col_mDepartment,Col_FoundingYear,Col_State}, null, null, null, null, Col_Name);
+        int i;
         if (cursor.getCount() == 0) {
             cursor.close();
             return null;
@@ -134,6 +139,27 @@ public class UniversityDB {
     public String [] getListOfFacOrDep (String myStringWithSeparator)
     {
         return  myStringWithSeparator.split("-",-1);//todo ne pas oublier que les dep ou fac sont stockés ss formet une seule String et donc y'a un separateur
+
+    }
+
+    public Cursor  getUnivList() {
+        //Open connection to read only
+        University university=new University();
+        SQLiteDatabase db = universityBaseSQLite.getReadableDatabase();
+        String selectQuery =  "SELECT * FROM Universities";
+
+
+        Cursor cursor = db.rawQuery(selectQuery, null);
+        // looping through all rows and adding to list
+
+        if (cursor == null) {
+            return null;
+        } else if (!cursor.moveToFirst()) {
+            cursor.close();
+            return null;
+        }
+        return cursor;
+
 
     }
 

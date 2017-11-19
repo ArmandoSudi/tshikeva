@@ -45,18 +45,6 @@ public class UniversityBaseSQLite extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-
-//        /*test to be deleted*/
-//
-//        String CREATE_TABLE_STUDENT = "CREATE TABLE " + "student"  + "("
-//                + "ID"  + " INTEGER PRIMARY KEY AUTOINCREMENT ,"
-//                + "Name" + " TEXT, "
-//                + "Age" + " INTEGER, "
-//                + "eMAIL" + " TEXT )";
-//
-//        db.execSQL(CREATE_TABLE_STUDENT);
-//
-//        /*end test*/
         Log.i("Z","Create DB");
         try {
             db.execSQL(CreateBDD);
