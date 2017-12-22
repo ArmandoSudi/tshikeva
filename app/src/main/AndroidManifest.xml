@@ -25,25 +25,30 @@
         <activity
             android:name=".UI.UniversityActivity"
             android:label="@string/title_activity_label_universities"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:launchMode="singleTop">
-        <intent-filter>
-            <action android:name="android.intent.action.SEARCH" />
-        </intent-filter>
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
             <meta-data
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
         </activity>
-
         <activity
             android:name=".UI.EvenementActivity"
             android:label="@string/title_activity_evenement" />
-        <activity android:name=".UI.ContactActivity"
-            android:label="@string/Contact"/>
-        <activity android:name=".UI.PromotionActivity"
-            android:label="@string/Promotion"/>
-        <activity android:name=".UI.InsolitesActivity"
-            android:label="@string/Insolite"/>
+        <activity
+            android:name=".UI.ContactActivity"
+            android:label="@string/Contact" />
+        <activity
+            android:name=".UI.PromotionActivity"
+            android:label="@string/Promotion" />
+        <activity
+            android:name=".UI.InsolitesActivity"
+            android:label="@string/Insolite" />
+        <activity android:name=".UI.QuiQommesNousActivity" />
+        <activity android:name=".UI.QuiSommesNousActivity"></activity>
     </application>
 
 </manifest>

@@ -8,4 +8,5 @@
         android:icon="@mipmap/abc_ic_search_api_mtrl_alpha"
         app:showAsAction="collapseActionView|ifRoom"
         app:actionViewClass="android.support.v7.widget.SearchView"/>
+    <!-- Product Name -->
 </menu>

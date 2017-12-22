@@ -14,9 +14,12 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.afrisusers.tshikeva.R;
@@ -32,6 +35,9 @@ import java.util.List;
 public class UniversityActivity extends AppCompatActivity {
     Cursor cursor;
     UniversityDB universityDB;
+
+    // Search EditText
+    EditText inputSearch;
     private static final String TAG = "UniversityActivity";
 
     RecyclerView mUniversityRV;
@@ -44,6 +50,8 @@ public class UniversityActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scrolling);
+
+        inputSearch = (EditText) findViewById(R.id.inputSearch);
 
         //TEST TO INSERT DATA IN db
         University university=new University(14,12,"UCB","BKV","1969",4, new String[]{"DCP", "DUP", "DKP"},
@@ -73,7 +81,26 @@ public class UniversityActivity extends AppCompatActivity {
         mUniversityRV.addItemDecoration(mDividerItemDecoration);
 
         mUniversityAdapter.notifyDataSetChanged();
+
+        inputSearch.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+                //
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
     }
+
 
     public void initScreen() {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);

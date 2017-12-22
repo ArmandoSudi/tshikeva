@@ -3,26 +3,38 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_evenement"
-            android:icon="@drawable/ic_event_black_24dp"
-            android:title="@string/Evenement" />
+            android:id="@+id/nav_article"
+            android:icon="@drawable/ic_article"
+            android:title="@string/Article" />
+        <item
+            android:id="@+id/nav_univ"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/universite" />
+        <item
+            android:id="@+id/nav_ecole_centre_de_formation"
+            android:icon="@drawable/ic_ecole_centre_de_formation"
+            android:title="@string/Ecole_et_centre" />
         <item
             android:id="@+id/nav_promo"
             android:icon="@drawable/ic_promo__black_24dp"
             android:title="@string/Promotion" />
         <item
+            android:id="@+id/nav_evenement"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="@string/Evenement" />
+        <item
             android:id="@+id/nav_insolite"
             android:icon="@drawable/ic_mood_black_24dp"
             android:title="@string/Insolite" />
-        <item
-            android:id="@+id/nav_univ"
-            android:icon="@drawable/ic_school_black_24dp"
-            android:title="@string/universite" />
 
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Communication">
         <menu>
+            <item
+                android:id="@+id/nav_qui_sommes_sn"
+                android:icon="@drawable/ic_qui_sommes"
+                android:title="@string/Qui" />
             <item
                 android:id="@+id/nav_contact"
                 android:icon="@drawable/ic_contact_phone_black_24dp"
@@ -30,7 +42,7 @@
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Envoyer Mail" />
         </menu>
     </item>
 

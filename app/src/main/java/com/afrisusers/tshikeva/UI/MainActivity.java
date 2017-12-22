@@ -178,7 +178,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         } else if (id == R.id.nav_contact) { Intent intentContact = new Intent(MainActivity.this, ContactActivity.class);startActivity(intentContact);
 
-        } else if (id == R.id.nav_send) {
+        }
+        else if (id == R.id.nav_article) { //Intent intentContact = new Intent(MainActivity.this, ArticleDetailActivity.class);startActivity(intentContact);
+
+        } else if (id == R.id.nav_qui_sommes_sn) { Intent intentContact = new Intent(MainActivity.this, QuiSommesNousActivity.class);startActivity(intentContact);
+
+        }
+        else if (id == R.id.nav_send) {
 
         }
 

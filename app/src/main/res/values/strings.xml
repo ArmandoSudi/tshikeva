@@ -227,4 +227,7 @@
     <string name="search_hint">Rechercher  Université</string>
     <string name="search_hint_university">Ex : Economie, Droit ...</string>
     <string name="title_activity_label_universities">Universités</string>
+    <string name="Article">Article</string>
+    <string name="Ecole_et_centre">Ecole et centre de formation</string>
+    <string name="Qui">Qui sommes-nous</string>
 </resources>
